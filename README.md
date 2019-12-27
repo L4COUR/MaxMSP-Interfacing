@@ -4,7 +4,7 @@ The German word "Aufbau" is here primarily understood as a process of establishi
 ### 1) Set-up
 In this first interpretation we establish the initial connection between Max/MSP and the other given program. During set-up the minimum amount of syntax required to connect the programs together are written and tested in order to ensure a stable connection.
 
-### 2) structure
+### 2) Structure
 In this second interpretation we analyse the inherent oppertunities of the two programs. In what ways can these two programs benefit from each other. what are the benefits of using one program over the other to carry out a certain task? This step is about exploring what is possible with an established interoperational constitution between the programs.
 
 ### 3) Compose
