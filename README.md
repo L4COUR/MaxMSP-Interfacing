@@ -18,3 +18,6 @@ Each of the ways of connecting Max/MSP to a given program, will use my Aufbau in
 ## Ideas for Max/MSP Aufbau
 - Max/MSP Aufbau ORCA
 - Max/MSP Aufbau Processing
+- Max/MSP Aufbau Acoustic Instruments
+- Max/MSP Aufbau Arduino
+- Max/MSP Aufbau External Hardware Synthesizer
