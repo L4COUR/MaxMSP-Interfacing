@@ -14,3 +14,7 @@ In this final interpretation we are able to compose ideas through the joint func
 In this repository I want to build an archive of multiple programming langauges that Max/MSP can connect with. The goal is to create a resource for users of the Max/MSP software developed by Cycling 74, which will allow them to more easily find ways of connecting and discovering new ways of using Max/MSP.
 
 Each of the ways of connecting Max/MSP to a given program, will use my Aufbau interpretations as a scaffolding for the guides sections. This means that each guide will start of by a Set-up section, Structure section and finally a Compose section. by following each of these section it will give the reader an idea of how to quickly setup the connection, what the possibilites of doing so is, and an example of how this connection can be utilized in practice. 
+
+## Ideas for Max/MSP Aufbau
+- Max/MSP Aufbau ORCA
+- Max/MSP Aufbau Processing
