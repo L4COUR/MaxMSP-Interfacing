@@ -19,6 +19,7 @@ Each of the ways of connecting Max/MSP to a given program, will use my Aufbau in
 - [Max/MSP Aufbau ORCA](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20ORCA)
 - Max/MSP Aufbau Processing
 - Max/MSP Aufbau SuperCollider
+- Max/MSP Aufbau ToneJS
 - Max/MSP Aufbau Acoustic Instruments
 - Max/MSP Aufbau Arduino
 - Max/MSP Aufbau External Hardware Synthesizer
