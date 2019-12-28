@@ -5,9 +5,19 @@ The German word "Aufbau" is here primarily understood as a process of establishi
 
 ### MIDI
 
+![](./media/MaxMSP-Aufbau-ORCA-Midiin.gif)
+
+![](./media/MaxMSP-Aufbau-ORCA-MidiOut.gif)
+
+![](./media/MaxMSP-Aufbau-ORCA-MIDIcc.gif)
+
 ### OSC
 
+When I was exploring the ways of sending OSC messages between Max/MSP and ORCA I found that sending number values were very easy in comparison to sending strings of words. All letters would be received encoded through the Base36 tabel, which meant that "HelloWorld" would be recieved in Max as "17 14 21 21 24 32 24 27 21 13". Thanks to Italo Lombardo and Rajan Craveri I was able to assemble two ways of decoding the Base36 message. I have marked these as Simple and Complex decoders aswell as an encoder.
+
 ### UDP
+
+![](./media/MaxMSP-Aufbau-ORCA-RawUDP.gif)
 
 ## Structure
 
