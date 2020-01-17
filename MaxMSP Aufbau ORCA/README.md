@@ -51,11 +51,17 @@ When I was exploring the ways of sending OSC messages between Max/MSP and ORCA I
 | **O** | **P** | **Q** | **R** | **S** | **T** | **U** | **V** | **W** | **X** | **Y** | **Z** |
 | 24    | 25    | 26    | 27    | 28    | 29    | 30    | 31    | 32    | 33    | 34    | 35    |
 
-### UDP
+### UDP (Orca->MaxMSP)
 
-By default ORCA has an UDP port 49161, in order to receive the raw UDP message in Max the UDP port should be assigned to the Max Object "mxi net.udp.recv" as an attribute "@port 49161".
+By default ORCA has an UDP port 49161, in order to receive the raw UDP message in Max the UDP port should be assigned to the Max Object "mxj net.udp.recv" as an attribute "@port 49161".
 
 ![](./media/MaxMSP-Aufbau-ORCA-RawUDP.gif)
+
+### UDP (MaxMSP->Orca)
+
+In order to communicate from Max/MSP to ORCA, we can use ORCA's default UDP port 49160 with the Max object "mxj net.udp.send" with the attributes "@address 127.0.0.1" and "@port 49160". This enables ORCA to be controlled and clocked with MaxMSP. it enables ORCA to be remotely controlled with "start, stop, run, frame:0, find, copy, paste, erase, BPM, APM, skip and rewind" along with being able to control the position and writing in operators into ORCA.
+
+![](/Users/Pacour/Developer/Aufbau/MaxMSP Aufbau ORCA/media/ORCA_MaxBPMAPM.gif)
 
 ## Structure
 
