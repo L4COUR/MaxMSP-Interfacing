@@ -61,7 +61,7 @@ By default ORCA has an UDP port 49161, in order to receive the raw UDP message i
 
 In order to communicate from Max/MSP to ORCA, we can use ORCA's default UDP port 49160 with the Max object "mxj net.udp.send" with the attributes "@address 127.0.0.1" and "@port 49160". This enables ORCA to be controlled and clocked with MaxMSP. it enables ORCA to be remotely controlled with "start, stop, run, frame:0, find, copy, paste, erase, BPM, APM, skip and rewind" along with being able to control the position and writing in operators into ORCA.
 
-![](/Users/Pacour/Developer/Aufbau/MaxMSP Aufbau ORCA/media/ORCA_MaxBPMAPM.gif)
+![](./media/ORCA_MaxBPMAPM.gif)
 
 ## Structure
 
