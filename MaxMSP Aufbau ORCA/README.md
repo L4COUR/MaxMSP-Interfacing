@@ -63,8 +63,9 @@ In order to communicate from Max/MSP to ORCA, we can use ORCA's default UDP port
 
 ![](./media/ORCA_MaxBPMAPM.gif)
 
-[details="Max-Patcher"]
-<pre><code>
+<details>
+  <summary>Max-Patcher</summary>
+  <pre><code>
 ----------begin_max5_patcher----------
 1202.3oc0ZsraaiCEcs8WgfPW5wPjTublMMKmUy1NnMHf1hNUoRTBjTNISQ+
 2G9PxOlRaKYKqnfBnFSQqCO2yk2GT9mSm3tr3UB204Nmu5LYxOmNYhdH0.Sp
@@ -94,8 +95,8 @@ CiCuEXv0kten1ooeOusHI7Mw71RvuIFXX6pcKnOrwfEstjzqGq1XRg8ARW1t
 eSqD3xxMDFudxZLjMT8bgVYimo+XJ07QcOJtLxlzl4aFAyj89HjM9TwLuVxW
 CMugV27BoOBsJs1MQxNIj5l0TuBSdI1PDcOcS+0z+CjDmqJI
 -----------end_max5_patcher-----------
-</code></pre>
-[/details]
+  </code></pre>
+</details>
 
 ## Structure
 
