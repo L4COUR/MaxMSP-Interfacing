@@ -5,6 +5,44 @@ The German word "Aufbau" is here primarily understood as a process of establishi
 
 ## Set-up
 
+### ORCA x Max/MSP Template.
+<details>
+  <summary>ORCA</summary>
+.........
+.........
+..D2.....
+..*......
+..:04C...
+.........
+.........
+
+</details>
+
+<details>
+  <summary>Max/MSP</summary>
+<pre><code>
+----------begin_max5_patcher----------
+687.3ocyVssihCCC841uBTeFPMkVJy9qrZDJT7.YTZBJIkEzH1u8M2JWC2Fp
+FsOzzFGWe7wwwNeEGkLiuAjI89Uue2KJ5q3nHqHifH+7njZ7lJJVZUKgRVCC
+WfIr+lz2s7ZrfgqgqrJYtcA9rOGflzJbEVUsjvVLU.UJG5n2Fl1uGZzHyq27
+SJGl16c++vZpILJnrtQlWn1szVByX.sh2vr1J8vOvaTs+QgWpSjZ6Jvgahjr
+fgoI8O9KyyGTNVY9fRjZ699dWWnIqBDSAFdF0ZEjeMIdMLeJVoDjYMJ3vWRe
+.0GQMwLZCv+nUbq7iMeqK5oyIq0vHJoZqC87.JTqiUl0FTlNLjAnb1hquoch
+pDMVDL8R5dFfXaVy3fv4sgKhO.k0FMOQI4RtPExobptKN9vK63t39OXRaEut
+FzYG98IErQ4jujMbeNo.jZcvJBmMkRXv9Dpr.oxk2JUdrMIdRoYbTlYLK8ZY
+xnfYqocHIWCzPGFGeCFL4HBjM9mh.0fThW.WP.TH2O+Va.E4FetnvNlZ8+r6
+UJ4T+GcsxE5JAcH0RCQsQ2fZkn+yXFC9i1oufXywUgZATd2N.YSPG5.7rbKs
+6HP01JJDhBE2kBtyM4i5zcGeyotbOpVo6.cIAyuKAcoe9JaYOWggelzOFWA5
+NfANbc+DPKsPSJ9Nraz0XGgYuKwQuNgtVLRLccN6xXV2zH+zXfj2HpZsc6cq
+5g16pyAohvr8xNRoRmNACyOEPoO.PouHPEO.NmwZtXNHtdcfNG4zKQF8ZAWs
+QytGx4cwt3CjsX5C8x.k+.wxhNHaA8.3jeANtic3UqVCBoWYKD5hLexsanS5
+amRXto1i8IBXMoUeac7DrPWMQoKkzHb2ecyXWczjZtN0f0P7YGZxogzV.ybW
+W4JriG15bw6h+GvfS6Ru
+-----------end_max5_patcher-----------
+</code></pre>
+
+</details>
+
 ### MIDI
 
 MIDI is the only one of the three communication protocols that is bidirectional meaning that ORCA can both send and receive messages from Max/MSP. in order to communicate through MIDI we must make sure that both ORCA and Max/MSP are using the same MIDI Driver in this case I am using the IAC Driver Bus 1.
@@ -34,6 +72,7 @@ This functionality is also available across multiple Midi Channels.
 By default ORCA sets the Control number of MIDIcc to 64, in order to set this to 1, the users must use cmd + k or ctrl + k in order to activate the ORCA commandpromt. To change the Control number the user should type in "CC:1" in the promt. In this final example ORCA is sending MIDIcc to Max/MSP. Max receives these values through the "ctlin" object, which can also receive values from multiple MIDI-channels.
 
 ![](./media/MaxMSP-Aufbau-ORCA-MIDIcc.gif)
+
 
 ### OSC
 
@@ -248,6 +287,7 @@ EZH.2
 Max/MSP and ORCA share a lot of communication protocols such as MIDI, UDP and OSC, which means that there is a lot of different ways of establishing a connection between the two programs. All of the protocols can be used for sending out values to Max/MSP, however it seems that only MIDI and UDP receive values from MaxMSP. This means that the only bidrectional communication possible is through MIDI or UDP, this is worth considering when composing using the two programs together.
 
 ## Compose
+In the previous parts we have established that you can connect ORCA and Max/MSP in a lot of different ways. In this final part is about using the above methods for auditive composition. by providing a quick start up template.  
 
 ### Sources
 
