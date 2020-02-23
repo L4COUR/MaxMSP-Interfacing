@@ -40,8 +40,9 @@ amRXto1i8IBXMoUeac7DrPWMQoKkzHb2ecyXWczjZtN0f0P7YGZxogzV.ybW
 W4JriG15bw6h+GvfS6Ru
 -----------end_max5_patcher-----------
 </code></pre>
-
 </details>
+
+![](./media/Max:MSP-ORCA-Template.png)
 
 ### MIDI
 
