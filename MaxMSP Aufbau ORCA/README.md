@@ -288,7 +288,8 @@ EZH.2
 Max/MSP and ORCA share a lot of communication protocols such as MIDI, UDP and OSC, which means that there is a lot of different ways of establishing a connection between the two programs. All of the protocols can be used for sending out values to Max/MSP, however it seems that only MIDI and UDP receive values from MaxMSP. This means that the only bidrectional communication possible is through MIDI or UDP, this is worth considering when composing using the two programs together.
 
 ## Compose
-In the previous parts we have established that you can connect ORCA and Max/MSP in a lot of different ways. In this final part is about using the above methods for auditive composition. by providing a quick start up template.  
+In the previous parts we have established that you can connect ORCA and Max/MSP in a lot of different ways. In this final part is about using the above methods for auditive composition. by providing a quick start up template.
+https://vimeo.com/396270237
 
 ### Sources
 
