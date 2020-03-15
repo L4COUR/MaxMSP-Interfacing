@@ -39,6 +39,20 @@ In the unzipped folder there is another named "AxiDraw_API_v256" where the rest 
 
 open /AxiDraw_API_v256/test_Interactive.py in a text-editor that can run python-scripts. in this guide I will be using ATOM.
 
+```python
+from pyaxidraw import axidraw   # import module
+ad = axidraw.AxiDraw()          # Initialize class
+ad.interactive()                # Enter interactive context
+ad.connect()                    # Open serial port to AxiDraw
+                                # Absolute moves follow:
+ad.moveto(1,4)                  # Pen-up move to (1 inch, 1 inch)
+ad.lineto(2,1)                  # Pen-down move, to (2 inch, 1 inch)
+ad.moveto(0,0)                  # Pen-up move, back to origin.
+ad.disconnect()                 # Close serial port to AxiDraw
+```
+
+
+
 Connect your computer and power-cable to the plotter and compile the python script.
 
 If you have installed and connected everything correctly then you should see the plotter move. If not go back and check that everything has been done according to the installation guide.
