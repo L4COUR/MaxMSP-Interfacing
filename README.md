@@ -17,8 +17,8 @@ Each of the ways of connecting Max/MSP to a given program, will use my Aufbau in
 
 ## Ideas for Max/MSP Aufbau
 - [Max/MSP Aufbau ORCA](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20ORCA)
-- Max/MSP Aufbau Shiftr.io (MQTT)
-- Max/MSP Aufbau AxiDraw (Python)
+- [Max/MSP Aufbau Shiftr.io (MQTT)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20Shiftr.io%20-%20MQTT)
+- [Max/MSP Aufbau AxiDraw (Python)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20AxiDraw%20(Python))
 - Max/MSP Aufbau Processing
 - Max/MSP Aufbau SuperCollider
 - Max/MSP Aufbau ToneJS
