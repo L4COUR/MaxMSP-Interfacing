@@ -24,7 +24,7 @@ void loop() {
 
 ![](https://github.com/L4COUR/L4COUR_Max-Patchers/raw/master/Max%20Projects/03_Max8%20-%20LDR%2BSERIAL%3DNOISE/media/Schematic.png)
 
-In my next project I wanted to interface with a [PIR sensor]([https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max%20Projects/04_Max8%20-%20Arduino%20%2B%20PIRsensor](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max Projects/04_Max8 - Arduino %2B PIRsensor)), and so I did.
+In my next project I wanted to interface with a [PIR sensor](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max%20Projects/04_Max8%20-%20Arduino%20%2B%20PIRsensor](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max Projects/04_Max8 - Arduino %2B PIRsensor)), and so I did.
 
 ![](https://github.com/L4COUR/L4COUR_Max-Patchers/raw/master/Max%20Projects/04_Max8%20-%20Arduino%20%2B%20PIRsensor/media/04_Max8%20-%20Arduino%20+%20PIRsensor.png)
 
@@ -69,7 +69,7 @@ void loop(){
 }
 ```
 
-I also tried combining [Max/MSP with an Arduino + and Ultrasound module]([https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max%20Projects/06_Max8%20-%20Arduino%20%2B%20Ultrasound%20(Maxsonar)](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max Projects/06_Max8 - Arduino %2B Ultrasound (Maxsonar))
+I also tried combining [Max/MSP with an Arduino + and Ultrasound module](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max%20Projects/06_Max8%20-%20Arduino%20%2B%20Ultrasound%20(Maxsonar)](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max Projects/06_Max8 - Arduino %2B Ultrasound (Maxsonar))
 
 ![](https://github.com/L4COUR/L4COUR_Max-Patchers/raw/master/Max%20Projects/06_Max8%20-%20Arduino%20%2B%20Ultrasound%20(Maxsonar)/media/Max_arduino_ultrasound.png)
 
