@@ -90,7 +90,7 @@ delay(100);
 }
 ```
 
-However, the biggest projekt I have worked on in regards to complexity would be to make a [Max-patch that could visualize the live data coming from an adafruit AMG8833 Thermal Camera module]([https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max%20Projects/05_Max8%20-%20Adafruit%20AMG8833%20Thermal%20Camera%20Heatmap%20Jitter](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max Projects/05_Max8 - Adafruit AMG8833 Thermal Camera Heatmap Jitter))
+However, the biggest projekt I have worked on in regards to complexity would be to make a [Max-patch that could visualize the live data coming from an adafruit AMG8833 Thermal Camera module](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max%20Projects/05_Max8%20-%20Adafruit%20AMG8833%20Thermal%20Camera%20Heatmap%20Jitter](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max Projects/05_Max8 - Adafruit AMG8833 Thermal Camera Heatmap Jitter))
 
 ![](https://github.com/L4COUR/L4COUR_Max-Patchers/raw/master/Max%20Projects/05_Max8%20-%20Adafruit%20AMG8833%20Thermal%20Camera%20Heatmap%20Jitter/media/Max_MSP-heating-camera.gif)
 
