@@ -115,7 +115,5 @@ However, the biggest projekt I have worked on in regards to complexity would be 
 
 - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-amg8833-8x8-thermal-camera-sensor.pdf
 
-- 
-
   
 
