@@ -15,7 +15,7 @@ In this repository I want to build an archive of multiple programming langauges 
 
 Each of the ways of connecting Max/MSP to a given program, will use my Aufbau interpretations as a scaffolding for the guides sections. This means that each guide will start of by a Set-up section, Structure section and finally a Compose section. by following each of these section it will give the reader an idea of how to quickly setup the connection, what the possibilites of doing so is, and an example of how this connection can be utilized in practice. 
 
-## Ideas for Max/MSP Aufbau
+## Ideas for Max/MSP Interfacing
 - [Max/MSP Interfacing ORCA](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20ORCA)
 - [Max/MSP Interfacing Shiftr.io (MQTT)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20Shiftr.io%20-%20MQTT)
 - [Max/MSP Interfacing AxiDraw (Python)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20AxiDraw%20(Python))
