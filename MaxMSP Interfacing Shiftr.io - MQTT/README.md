@@ -1,5 +1,5 @@
-# MaxMSP Aufbau Shiftr.io
-The German word "Aufbau" is here primarily understood as a process of establishing interoperational constitution between Max/MSP and other programming languages. This constitutional process is realized through three interpretations of the word "Aufbau". In this part we will examine the Aufbau between Max/MSP and MQTT Broker [Shiftr.io](https://shiftr.io/).
+# MaxMSP Interfacing Shiftr.io
+The word "Interfacing" is here primarily understood as a process of establishing interoperational constitution between Max/MSP and other programming languages. In this part we will examine the interface between Max/MSP and MQTT Broker [Shiftr.io](https://shiftr.io/).
 
 ## Set-up
 
