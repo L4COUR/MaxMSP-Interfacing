@@ -17,9 +17,57 @@ Unfortunatly Gähwilers Max External has not been maintained since dec. 2019 and
 Now that Node is setup we can create the javascript files needed
 
 - mqtt-subscriber.js
+
+  - ```javascript
+    
+    const maxApi = require('max-api');
+    const mqtt = require('mqtt');
+    
+    let client;
+    
+    maxApi.addHandler('connect', (url) => {
+      client = mqtt.connect(url);
+    
+      client.on('connect', () => {
+        maxApi.outlet('connected');
+      });
+    });
+    
+    maxApi.addHandler('subscribe', (topic) => {
+      client.subscribe(topic);
+    
+      client.on('message', (topic, message) => {
+        maxApi.outlet(message.toString());
+      });
+    });
+    
+    ```
+
 - mqtt-publisher.js
 
+  - ```javascript
+    const maxApi = require('max-api');
+    const mqtt = require('mqtt');
+    
+    let client;
+    
+    maxApi.addHandler('connect', (url) => {
+      client = mqtt.connect(url);
+    
+      client.on('connect', () => {
+        maxApi.outlet('connected');
+      });
+    });
+    
+    maxApi.addHandler('publish', (topic, value) => {
+      client.publish(topic, value.toString());
+    });
+    
+    ```
+
 Now that everything is ready we can connect the two js-files to a max-project file
+
+We have connected Max/MSP with the Shiftr.io MQTT Broker through the [try](https://shiftr.io/try) example.
 
 ![](/Users/Pacour/Developer/Aufbau/MaxMSP Interfacing Shiftr.io - MQTT/media/MaxQTT.gif)
 
