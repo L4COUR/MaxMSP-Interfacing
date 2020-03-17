@@ -1,5 +1,5 @@
-# MaxMSP Aufbau Arduino
-The German word "Aufbau" is here primarily understood as a process of establishing interoperational constitution between Max/MSP and other programming languages. This constitutional process is realized through three interpretations of the word "Aufbau". In this part we will examine the Aufbau between Max/MSP and Arduino
+# MaxMSP Interfacing Arduino
+The word "Interfacing" is here primarily understood as a process of establishing interoperational constitution between Max/MSP and other programming languages. In this part we will examine the interfacing between Max/MSP and Arduino
 
 ## Set-up
 
