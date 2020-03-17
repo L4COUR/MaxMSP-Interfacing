@@ -1,5 +1,5 @@
-# The Aufbau Interpretations
-The German word "Aufbau" is here primarily understood as a process of establishing interoperational constitution between Max/MSP and other programming languages. This constitutional process is realized through three interpretations of Aufbau.
+# MaxMSP Interfacing
+The word "Interfacing" is here primarily understood as a process of establishing interoperational constitution between Max/MSP and other programming languages. This constitutional process is realized through three interpretations of Aufbau.
 
 ### 1) Set-up
 In this first interpretation we establish the initial connection between Max/MSP and the other given program. During set-up the minimum amount of syntax required to connect the programs together are written and tested in order to ensure a stable connection.
@@ -16,12 +16,12 @@ In this repository I want to build an archive of multiple programming langauges 
 Each of the ways of connecting Max/MSP to a given program, will use my Aufbau interpretations as a scaffolding for the guides sections. This means that each guide will start of by a Set-up section, Structure section and finally a Compose section. by following each of these section it will give the reader an idea of how to quickly setup the connection, what the possibilites of doing so is, and an example of how this connection can be utilized in practice. 
 
 ## Ideas for Max/MSP Aufbau
-- [Max/MSP Aufbau ORCA](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20ORCA)
-- [Max/MSP Aufbau Shiftr.io (MQTT)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20Shiftr.io%20-%20MQTT)
-- [Max/MSP Aufbau AxiDraw (Python)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20AxiDraw%20(Python))
-- [Max/MSP Aufbau Arduino](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20Arduino)
-- Max/MSP Aufbau Processing
-- Max/MSP Aufbau SuperCollider
-- Max/MSP Aufbau ToneJS
-- Max/MSP Aufbau Acoustic Instruments
-- Max/MSP Aufbau External Hardware Synthesizer
+- [Max/MSP Interfacing ORCA](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20ORCA)
+- [Max/MSP Interfacing Shiftr.io (MQTT)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20Shiftr.io%20-%20MQTT)
+- [Max/MSP Interfacing AxiDraw (Python)](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20AxiDraw%20(Python))
+- [Max/MSP Interfacing Arduino](https://github.com/L4COUR/Aufbau/tree/master/MaxMSP%20Aufbau%20Arduino)
+- Max/MSP Interfacing Processing
+- Max/MSP Interfacing SuperCollider
+- Max/MSP Interfacing ToneJS
+- Max/MSP Interfacing Acoustic Instruments
+- Max/MSP Interfacing External Hardware Synthesizer
