@@ -21,6 +21,8 @@ Now that Node is setup we can create the javascript files needed
 
 Now that everything is ready we can connect the two js-files to a max-project file
 
+![](/Users/Pacour/Developer/Aufbau/MaxMSP Interfacing Shiftr.io - MQTT/media/MaxQTT.gif)
+
 <details>
   <summary>Max/MSP patcher</summary>
 	<pre><code>
@@ -65,5 +67,7 @@ wEfQZvskPjnalhrgjYipwLuFZ.hl.zreM6egjK92E
 - https://github.com/256dpi/max-mqtt
 
 - https://www.znibbl.es/video/mqtt-subscriber?fbclid=IwAR29o8ZHZ535gwXB5unP2hHsdQDwF-UwOSQrWS7cWQeP9rtQACxnJ0XxIR8
+
+- https://shiftr.io/try
 
   
