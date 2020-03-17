@@ -1,0 +1,14 @@
+{
+  "name": "maxqtt",
+  "version": "1.0.0",
+  "description": "The word \"Interfacing\" is here primarily understood as a process of establishing interoperational constitution between Max/MSP and other programming languages. In this part we will examine the interface between Max/MSP and MQTT Broker [Shiftr.io](https://shiftr.io/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^3.0.0"
+  }
+}
