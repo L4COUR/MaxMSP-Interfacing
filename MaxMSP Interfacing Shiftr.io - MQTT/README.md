@@ -69,7 +69,7 @@ Now that everything is ready we can connect the two js-files to a max-project fi
 
 We have connected Max/MSP with the Shiftr.io MQTT Broker through the [try](https://shiftr.io/try) example.
 
-![](/Users/Pacour/Developer/Aufbau/MaxMSP Interfacing Shiftr.io - MQTT/media/MaxQTT-image.png)
+![](./media/MaxQTT-image.png)
 
 <details>
   <summary>Max/MSP patcher</summary>
@@ -101,6 +101,7 @@ GPLd6r05Px93IpN7Y8b8qXh4UcmZ.CoHeXlu9H0.HS13VH6Z2vLMaecogVNP
 wEfQZvskPjnalhrgjYipwLuFZ.hl.zreM6egjK92E
 -----------end_max5_patcher-----------
 </code></pre>
+
 <iframe src="https://player.vimeo.com/video/398389302" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Structure
