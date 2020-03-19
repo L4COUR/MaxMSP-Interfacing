@@ -108,5 +108,11 @@ Now that the files are done we can move on to the max-patcher.
 ### Sources
 - https://wiki.evilmadscientist.com/AxiDraw_User_Guide
 
+- https://www.youtube.com/watch?v=WQbY0JkJnU0
+
+- https://www.npmjs.com/package/python-shell
+
+- https://docs.cycling74.com/nodeformax/api/module-max-api.html#.DictIdentifier
+
   
 
