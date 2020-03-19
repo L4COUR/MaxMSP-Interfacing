@@ -59,6 +59,43 @@ If you have installed and connected everything correctly then you should see the
 
 The question is now, how can we connect the Python script to Max/MSP in a way that makes sense?
 
+In order to establish a connection between max/MSP and python we need to use the Node for max framework and an npm package called [python-shell](https://www.npmjs.com/package/python-shell) which can be installed by writing "npm install python-shell" in the terminal or CMD
+
+then we must create two files a Hello.py, and a javascript file containing the necessary code to establish a connection we will call this python.js.
+
+Hello.py contains
+
+```python
+print("Hello World from Python!")
+```
+
+python.js contains
+
+```js
+const maxApi = require('max-api');
+let {PythonShell} = require('python-shell')
+
+let options = {
+  mode: 'text',
+  pythonPath: '/usr/bin/python', //insert your path to python here
+  pythonOptions: ['-u'], // get print results in real-time
+  scriptPath: '/Users/Pacour/Developer/Aufbau/MaxMSP Interfacing AxiDraw (Python)/Code', //insert your path to Hello.py here
+  args: ['value1', 'value2', 'value3']
+};
+
+PythonShell.run('Hello.py', options, function (err, results) {
+  if (err) throw err;
+  // results is an array consisting of messages collected during execution
+  maxApi.outlet(results);
+});
+```
+
+Now that the files are done we can move on to the max-patcher. 
+
+- make a new patcher, and save it as a project within the folder where the other .js and .py scripts are located.
+
+![](./media/Max-Python.gif)
+
 
 ## Structure
 

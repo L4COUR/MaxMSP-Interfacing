@@ -1,0 +1,14 @@
+{
+  "name": "max-python",
+  "version": "1.0.0",
+  "description": "",
+  "main": "python.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "L4COUR",
+  "license": "ISC",
+  "dependencies": {
+    "python-shell": "^1.0.8"
+  }
+}

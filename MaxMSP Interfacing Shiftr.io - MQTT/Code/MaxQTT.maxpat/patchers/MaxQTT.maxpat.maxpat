@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 287.0, 216.0, 889.0, 436.0 ],
+		"rect" : [ 882.0, 270.0, 457.0, 440.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,8 +139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 166.0, 50.0, 22.0 ],
-					"text" : "\"24.3\""
+					"patching_rect" : [ 239.0, 165.0, 50.0, 22.0 ],
+					"text" : "\"24.1\""
 				}
 
 			}
@@ -241,7 +241,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.0, 366.0, 63.0, 22.0 ],
+					"patching_rect" : [ 140.0, 382.0, 63.0, 22.0 ],
 					"text" : "script stop"
 				}
 
@@ -253,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.5, 366.0, 64.0, 22.0 ],
+					"patching_rect" : [ 139.0, 352.0, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -264,7 +264,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 397.0, 61.0, 22.0 ],
+					"patching_rect" : [ 105.0, 418.0, 61.0, 22.0 ],
 					"text" : "s to_node"
 				}
 
@@ -276,7 +276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 366.0, 98.0, 22.0 ],
+					"patching_rect" : [ 105.0, 324.0, 98.0, 22.0 ],
 					"text" : "script npm install"
 				}
 
@@ -296,7 +296,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 416.0, 187.0, 400.0, 220.0 ],
+					"patching_rect" : [ 207.0, 218.0, 400.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
