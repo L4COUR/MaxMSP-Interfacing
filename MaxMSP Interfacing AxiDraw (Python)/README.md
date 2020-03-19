@@ -96,6 +96,26 @@ Now that the files are done we can move on to the max-patcher.
 
 ![](./media/Max-Python.gif)
 
+<details>
+  <summary>Max/MSP patcher</summary>
+<pre><code>
+----------begin_max5_patcher----------
+599.3ocuU0zbaBCD8L7qPiN6x.XrcZ+Ezi8VOzjwi.jwxQHwHI7GSl7euRqD
+w3ZmD6jN4BXd6Js6ae6t9o3HbobOUiQ+.8GTTzSwQQ.jCHJ7cDtkruhSzfa3
+VpVSZn3IdaF5dCfeO9mTNWh9sTwqQqTxVzuNXVKE2iG7kyDzJYu.NPd.Tz2J
+6MbpAt9r.ZGwTslIZVpnUFe5kcWR5DTVVA7Jcg60zYIonGBmweMlCcT+Av3W
+LwpgbTVt4aKvGCLSLD2bG1ywwtGS9jUBckh0YPZirCeyjLatiW4otmymB+N+
+l43ruNNRTlaljSyGwwhOHGK9uwwRHEopgKbKitaKSyJYbl4vXtHWsRSCj.x9
+zQoMWV8HstVQZrEGIm6bKMXqhypdzrVI6aVOFmJHkb55yOf2v1yMT1zJqomf
+HU01jeDx02s4UhrTnoqHM0qEoukXTRDMGEDAoELfEEsIsRAyHUI1pqMX3y0r
+7KpYYe.MSP2YuvyZKE1ZSRn2rC19jrQe49y72q+bQpeey2uhFzIuRSZ1kIb.
+TS1RqWZ8yF4kDiQwJ6M9swQuv6HLo2H8CZG03HbMc0IpdDP9kkLwRKkftrgE
+uVScsuhkcN5CWC..xvfX.LB1Z+O+CATyb3mpPZYupZnlDnO5XYqlpMLAwvjh
+Q9X2GixPObwdfqMNyth3DxkOUbJ9hhSlul7lwI+r33kKRW2VpRGbFBgczYiD
+5UtaB7IS3+DZDwJpaam2+o.BQYGIL1txdke5d+b+5Vra4iRzyBysVxE61tYG
+KcaBzcDOOfo23mi+KnzR6qI
+-----------end_max5_patcher-----------
+</code></pre>
 
 ## Structure
 
