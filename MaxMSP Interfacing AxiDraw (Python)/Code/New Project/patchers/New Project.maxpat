@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 760.0, 78.0, 642.0, 788.0 ],
+		"rect" : [ 376.0, 78.0, 613.0, 248.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.25, 583.0, 57.0, 22.0 ],
+					"patching_rect" : [ 774.25, 346.0, 57.0, 22.0 ],
 					"text" : "s Pen-up"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 438.25, 545.0, 24.0, 24.0 ]
+					"patching_rect" : [ 774.25, 308.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -137,7 +137,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.25, 656.0, 47.0, 22.0 ],
+					"patching_rect" : [ 779.25, 419.0, 47.0, 22.0 ],
 					"text" : "s ymov"
 				}
 
@@ -148,7 +148,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 656.0, 47.0, 22.0 ],
+					"patching_rect" : [ 638.0, 419.0, 47.0, 22.0 ],
 					"text" : "s xmov"
 				}
 
@@ -159,7 +159,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.0, 656.0, 36.0, 22.0 ],
+					"patching_rect" : [ 571.0, 419.0, 36.0, 22.0 ],
 					"text" : "s ylin"
 				}
 
@@ -170,7 +170,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 656.0, 36.0, 22.0 ],
+					"patching_rect" : [ 418.0, 419.0, 36.0, 22.0 ],
 					"text" : "s xlin"
 				}
 
@@ -182,7 +182,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 401.0, 618.0, 90.0, 22.0 ],
+					"patching_rect" : [ 737.0, 381.0, 90.0, 22.0 ],
 					"text" : "scale 0 1 0 210"
 				}
 
@@ -194,7 +194,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.0, 618.0, 90.0, 22.0 ],
+					"patching_rect" : [ 638.0, 381.0, 90.0, 22.0 ],
 					"text" : "scale 0 1 0 297"
 				}
 
@@ -206,7 +206,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 618.0, 90.0, 22.0 ],
+					"patching_rect" : [ 517.0, 381.0, 90.0, 22.0 ],
 					"text" : "scale 0 1 0 210"
 				}
 
@@ -218,7 +218,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.0, 618.0, 90.0, 22.0 ],
+					"patching_rect" : [ 418.0, 381.0, 90.0, 22.0 ],
 					"text" : "scale 0 1 0 297"
 				}
 
@@ -229,7 +229,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 241.0, 268.0, 20.0 ],
+					"patching_rect" : [ 494.0, 4.0, 268.0, 20.0 ],
 					"text" : "AxiDraw v3 worksurface: A4 (210 x 297 mm)"
 				}
 
@@ -240,7 +240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 656.0, 95.0, 20.0 ],
+					"patching_rect" : [ 465.0, 419.0, 95.0, 20.0 ],
 					"text" : "ad.lineto(X,Y)"
 				}
 
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 158.0, 583.0, 113.0, 22.0 ],
+					"patching_rect" : [ 494.0, 346.0, 113.0, 22.0 ],
 					"text" : "unpack f f"
 				}
 
@@ -264,7 +264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 158.0, 555.0, 46.0, 22.0 ],
+					"patching_rect" : [ 494.0, 318.0, 46.0, 22.0 ],
 					"text" : "route 1"
 				}
 
@@ -276,7 +276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 158.0, 527.0, 66.0, 22.0 ],
+					"patching_rect" : [ 494.0, 290.0, 66.0, 22.0 ],
 					"text" : "route node"
 				}
 
@@ -287,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 351.0, 657.0, 95.0, 20.0 ],
+					"patching_rect" : [ 687.0, 420.0, 95.0, 20.0 ],
 					"text" : "ad.moveto(X,Y)"
 				}
 
@@ -299,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 301.0, 583.0, 125.0, 22.0 ],
+					"patching_rect" : [ 637.0, 346.0, 125.0, 22.0 ],
 					"text" : "unpack f f"
 				}
 
@@ -311,7 +311,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 332.0, 527.0, 94.0, 22.0 ],
+					"patching_rect" : [ 668.0, 290.0, 94.0, 22.0 ],
 					"text" : "route mouseidle"
 				}
 
@@ -326,9 +326,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 158.0, 266.0, 268.0, 249.0 ],
-					"xplace" : [ 0.414179104477612 ],
-					"yplace" : [ 0.493975903614458 ]
+					"patching_rect" : [ 494.0, 29.0, 268.0, 249.0 ],
+					"xplace" : [ 0.54975131509909 ],
+					"yplace" : [ 0.354752356747547 ]
 				}
 
 			}
@@ -387,9 +387,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 241.0, 138.0, 35.0 ],
-					"presentation_linecount" : 3,
-					"text" : "\"Pen-Down 177 49\" \"Pen-Up 214 38\""
+					"patching_rect" : [ 7.0, 241.0, 122.0, 35.0 ],
+					"text" : "\"Pen-Down 163 74\" \"Pen-Up 124 9\""
 				}
 
 			}
@@ -419,26 +418,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "n4m.monitor.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 425.0, 9.0, 400.0, 220.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -461,15 +440,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -601,7 +571,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"midpoints" : [ 91.5, 648.5, 311.5, 648.5 ],
+					"midpoints" : [ 427.5, 411.5, 647.5, 411.5 ],
 					"order" : 0,
 					"source" : [ "obj-74", 0 ]
 				}
@@ -610,7 +580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
-					"midpoints" : [ 190.5, 643.0, 244.5, 643.0 ],
+					"midpoints" : [ 526.5, 406.0, 580.5, 406.0 ],
 					"order" : 1,
 					"source" : [ "obj-78", 0 ]
 				}
@@ -619,7 +589,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
-					"midpoints" : [ 190.5, 648.5, 452.75, 648.5 ],
+					"midpoints" : [ 526.5, 411.5, 788.75, 411.5 ],
 					"order" : 0,
 					"source" : [ "obj-78", 0 ]
 				}
@@ -628,7 +598,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
-					"midpoints" : [ 410.5, 647.5, 452.75, 647.5 ],
+					"midpoints" : [ 746.5, 410.5, 788.75, 410.5 ],
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -680,24 +650,6 @@
 				"name" : "python.js",
 				"bootpath" : "~/Developer/Aufbau/MaxMSP Interfacing AxiDraw (Python)/Code",
 				"patcherrelativepath" : "../..",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

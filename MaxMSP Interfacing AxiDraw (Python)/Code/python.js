@@ -16,7 +16,7 @@ maxApi.addHandler('input', (xlin, ylin, xmov, ymov) => {
     args: [xlin, ylin, xmov, ymov]
   };
 
-  PythonShell.run('Hello.py', options, function(err, results) {
+  PythonShell.run('Interactive.py', options, function(err, results) {
     if (err) throw err;
     //results is an array consisting of messages collected during execution
     maxApi.outlet(results);

@@ -2,8 +2,8 @@
 	"name" : "New Project",
 	"version" : 1,
 	"creationdate" : 3667505266,
-	"modificationdate" : 3667505345,
-	"viewrect" : [ 59.0, 103.0, 300.0, 500.0 ],
+	"modificationdate" : 3667584547,
+	"viewrect" : [ 31.0, 78.0, 310.0, 225.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -32,7 +32,7 @@
 		}
 ,
 		"other" : 		{
-			"Hello.py" : 			{
+			"Interactive.py" : 			{
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
