@@ -140,8 +140,12 @@ ordO
 -----------end_max5_patcher-----------
 </code></pre>
 </details>
+## Idea
+
+![](./media/Max-node-python.png)
 
 ### Sources
+
 - https://wiki.evilmadscientist.com/AxiDraw_User_Guide
 
 - https://www.youtube.com/watch?v=WQbY0JkJnU0

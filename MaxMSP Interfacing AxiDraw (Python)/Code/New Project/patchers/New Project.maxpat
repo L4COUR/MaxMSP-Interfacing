@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 349.0, 78.0, 854.0, 724.0 ],
+		"rect" : [ 760.0, 78.0, 642.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -327,8 +327,8 @@
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 158.0, 266.0, 268.0, 249.0 ],
-					"xplace" : [ 0.630597014925373 ],
-					"yplace" : [ 0.417670682730924 ]
+					"xplace" : [ 0.414179104477612 ],
+					"yplace" : [ 0.493975903614458 ]
 				}
 
 			}
@@ -389,7 +389,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 241.0, 138.0, 35.0 ],
 					"presentation_linecount" : 3,
-					"text" : "\"Pen-Down 187 87\" \"Pen-Up 16 157\""
+					"text" : "\"Pen-Down 177 49\" \"Pen-Up 214 38\""
 				}
 
 			}
