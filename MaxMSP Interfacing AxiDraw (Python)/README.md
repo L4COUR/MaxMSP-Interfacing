@@ -117,13 +117,6 @@ KcaBzcDOOfo23mi+KnzR6qI
 -----------end_max5_patcher-----------
 </code></pre>
 
-## Structure
-
-
-
-## Compose
-
-
 
 ### Sources
 - https://wiki.evilmadscientist.com/AxiDraw_User_Guide
