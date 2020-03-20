@@ -66,27 +66,46 @@ then we must create two files a Hello.py, and a javascript file containing the n
 Hello.py contains
 
 ```python
-print("Hello World from Python!")
+import sys
+
+# defining X/Y for pen-up and pen-down
+xlin = sys.argv[1]
+ylin = sys.argv[2]
+xmov = sys.argv[3]
+ymov = sys.argv[4]
+
+
+print("Pen-Down", xlin, ylin) #ad.lineto(x,y)
+
+print("Pen-Up",xmov, ymov) #ad.moveto(x,y)
 ```
 
 python.js contains
 
 ```js
 const maxApi = require('max-api');
-let {PythonShell} = require('python-shell')
+let {
+  PythonShell
+} = require('python-shell')
 
-let options = {
-  mode: 'text',
-  pythonPath: '/usr/bin/python', //insert your path to python here
-  pythonOptions: ['-u'], // get print results in real-time
-  scriptPath: '/Users/Pacour/Developer/Aufbau/MaxMSP Interfacing AxiDraw (Python)/Code', //insert your path to Hello.py here
-  args: ['value1', 'value2', 'value3']
-};
+let args = 'insert';
 
-PythonShell.run('Hello.py', options, function (err, results) {
-  if (err) throw err;
-  // results is an array consisting of messages collected during execution
-  maxApi.outlet(results);
+maxApi.addHandler('input', (xlin, ylin, xmov, ymov) => {
+  //maxApi.outlet(vari);
+
+  let options = {
+    mode: 'text',
+    pythonPath: '/Library/Frameworks/Python.framework/Versions/3.8/bin/python3',
+    pythonOptions: ['-u'], // get print results in real-time
+    scriptPath: '/Users/Pacour/Developer/Aufbau/MaxMSP Interfacing AxiDraw (Python)/Code',
+    args: [xlin, ylin, xmov, ymov]
+  };
+
+  PythonShell.run('Interactive.py', options, function(err, results) {
+    if (err) throw err;
+    //results is an array consisting of messages collected during execution
+    maxApi.outlet(results);
+  });
 });
 ```
 
