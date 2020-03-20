@@ -27,7 +27,7 @@ In the unzipped folder there is another named "AxiDraw_API_v256" where the rest 
 - You will also need to have Pip installed which is Pythons package manager. Again you can check if you already have this on your computer by typing "pip --version" into your terminal or CMD.
   - if pip is not installed you can type in "sudo easy_install pip" into your terminal or CMD. This will install pip on your computer
 
-### Installing dependencies 
+### Installing dependencies
 
 - Use pip to install pyaxidraw og axicli
   - in Terminal or CMD write
@@ -90,7 +90,7 @@ PythonShell.run('Hello.py', options, function (err, results) {
 });
 ```
 
-Now that the files are done we can move on to the max-patcher. 
+Now that the files are done we can move on to the max-patcher.
 
 - make a new patcher, and save it as a project within the folder where the other .js and .py scripts are located.
 
@@ -100,20 +100,43 @@ Now that the files are done we can move on to the max-patcher.
   <summary>Max/MSP patcher</summary>
 <pre><code>
 ----------begin_max5_patcher----------
-599.3ocuU0zbaBCD8L7qPiN6x.XrcZ+Ezi8VOzjwi.jwxQHwHI7GSl7euRqD
-w3ZmD6jN4BXd6Js6ae6t9o3HbobOUiQ+.8GTTzSwQQ.jCHJ7cDtkruhSzfa3
-VpVSZn3IdaF5dCfeO9mTNWh9sTwqQqTxVzuNXVKE2iG7kyDzJYu.NPd.Tz2J
-6MbpAt9r.ZGwTslIZVpnUFe5kcWR5DTVVA7Jcg60zYIonGBmweMlCcT+Av3W
-LwpgbTVt4aKvGCLSLD2bG1ywwtGS9jUBckh0YPZirCeyjLatiW4otmymB+N+
-l43ruNNRTlaljSyGwwhOHGK9uwwRHEopgKbKitaKSyJYbl4vXtHWsRSCj.x9
-zQoMWV8HstVQZrEGIm6bKMXqhypdzrVI6aVOFmJHkb55yOf2v1yMT1zJqomf
-HU01jeDx02s4UhrTnoqHM0qEoukXTRDMGEDAoELfEEsIsRAyHUI1pqMX3y0r
-7KpYYe.MSP2YuvyZKE1ZSRn2rC19jrQe49y72q+bQpeey2uhFzIuRSZ1kIb.
-TS1RqWZ8yF4kDiQwJ6M9swQuv6HLo2H8CZG03HbMc0IpdDP9kkLwRKkftrgE
-uVScsuhkcN5CWC..xvfX.LB1Z+O+CATyb3mpPZYupZnlDnO5XYqlpMLAwvjh
-Q9X2GixPObwdfqMNyth3DxkOUbJ9hhSlul7lwI+r33kKRW2VpRGbFBgczYiD
-5UtaB7IS3+DZDwJpaam2+o.BQYGIL1txdke5d+b+5Vra4iRzyBysVxE61tYG
-KcaBzcDOOfo23mi+KnzR6qI
+1619.3ocyZs0iaZDE9Y6eEi3oTIuTlKbKUpJQMu1pHUUoV0TYgsGu6jEyffw
+d81n7euyEvKNKFyU23UKBFF3b9ly8yvWlOyZE+HM2B7VveClM6KymMSOjZfY
+EWOyZWzw0wQ45oYsluaGMQXsvbOA8nPO9uvSx4wzxwS1uiuWDSE5mxoXzzHw
+5GXI2uLitVXnpmcP0et9K.n.ns6B.DGXCq9ifk2yw1A7OEuN1FMo4q97cPGb
+ERyRJoLTM1WmOWcXQKgXB8I4q7UHLC7QZxc6SqGhvKCQHoFP5FZ6HO5pNhPU
+.k4cJdNkZdZKq5wKrV75Ld3MuQ71fHkHEbHo.zM.qwn+qv3Y.wYzDbq1KD7j
+NKeNwuDizfTd7xxjUQI2WqbILz5Dgxh1QEzrkzjnUwzpKZSmJ5y63G5tBZH1
+FW8Gjr.DpEaDROUPC8lZ8yLvwdA15rFGJX8mdv9bLq6p1RqKaR0envRvh6MX
+cuAR19.VWMhFJ5HSue0Kaj1jWUBV6kxy0Sqq1nW0PzTGMLuAquFPA1Ao361A
+B7zChKaU0.HPX2Jf.60HHf2.IQe.Q.p8XvYxwv5nXJvA.k+ifNcODtCTiFXf
+1EfSOM9CpGndSDPOKrQ6.Zo8yPAJ5lBzdHQgAihD0O36cIZvnHP8IiFNuTEd
+u+H6CYQOANfAOwydLee11n0z2BdOA7FoDFbTAevtc+PmcEAcCLobqE4HOyUW
+nRO+wKpvkPZzFaoGUpf+l+bwe0C3fBq3ZMzsIz3EN0tV2mjFs9QvVv15AB5p
+xkh53fP70UN2FyijKnkmTKjCl7J0krEE.6MdMUkS7Zgs3hKXO5Uu8HZrAYBe
+Cs23DoS+xaP3DNZ3rAqQYll81ZD6ZBjXZCQyVitAeGaMhM43TZMhbGEqQWma
+i0nDj4T1l3tqshwnJZqgjAnsR7GOqRogWd8XAe8HcE1bEQ5HgWEMmgnmSikQ
+dM2VVeeHNz2MzA6AID2fSy534yBRf9gPGBw22Chpc04EeV4r+8zS9xbaeKsJ
+GTsHkHelhVLaAkfX7zrzlRLyecOSZs8CDq0pTxkW0ArdjFFt9diPFQ2g+Zzw
+e7W+8OBt6t69YvuIWf0m7wmEOvSTCVLZwoEy9m5raSSk4p9viQ3l7Yhl7LXR
+ynozjM.VR5dQeky9ZmHljs6gfE49+cWpQdlZCb7GbSpgjaRSpkl84Q2Sek77
+SVpMV3C7mRjhEe.I7SV.yX+QprVQB.G7IqxmRkH9Z99DwYQIxn4RaiHAimr7
+rYf65xpekJOT63jpYHtcu7qQKtxkVzxWmwREfbAu6a.kuIUASUI3dZA3d6fX
+TV2My8q.w9162wKm8UZNjlU9BOvnOcfkyVwhYhmqBE91s4TQYrVIeW0MaLe8
+izMaxhtWt1viiqZdtNls9QwCxrqt+gpiaLje30Of4FGd8MVc+NUUDUGgmsQx
+7m6LnkchyjWpVPPbJZmgS6cSoxVvDLfrSl2eBSvyrkqsoQmzIp5Vdpi8nxfw
+tPwLUGi09y4f2EsWv05o.H3cOoVE5Q4l9m4OOX.40dgdLWLXdzA5lkx4Io7x
+HgHiICAYRIa1oUiYVmvTkmcl0F51yzDLI0sbEKYoDRZMuRe0xakt6B2QuFcR
+1XDNkhHMhzN5+luDA8ZlZ7yka478YkI1dp4WfWV2j4bJXI5fCUljZ2DpLocr
+MobVhnfjg5O4.OoTPkwC7kqdQZbxjnVsqVyqAsgWQMwqvPmJLKwEY6OUbq9y
+L3prqJq2FXWWOa72tgqAgEa3pq47KTVPa4S01teU1T+oF.FJoTUIAPWS.dN+
+LRRC0dp2NgAdnqm9skRngRI21RI3PoDoCpxCyFuU9ibpWEAdCbu.ak6ESlhF
+aT8UiMyFf5fe6gQImA60k.KVV7O2qquxq6fXNbaLAPighIpMTBNBDR0UQkAa
+iDJvYrnz0fToh1fnjZeKtJlJs+FNktFlJcxLLJ0FOUdiBlZShDdjwJ.80jSd
+igVNoMQIcuYIc7MryH4jF1hUSHYJR2oMZL9iPhAcvoX8gFBLgH08VD5Ud9PE
+42HW0sQ9htthkoHtnzzCzr7hmVSSYY1elqmdvB8krDyk5RLsxnp9hXlut4cV
+QYxBkExZU2mY5DvwhMS0R0lhrj8rBZKQ6bUePjkvq2igzhs6PWo+7uN++.Xc
+ordO
 -----------end_max5_patcher-----------
 </code></pre>
 </details>
@@ -126,6 +149,3 @@ KcaBzcDOOfo23mi+KnzR6qI
 - https://www.npmjs.com/package/python-shell
 
 - https://docs.cycling74.com/nodeformax/api/module-max-api.html#.DictIdentifier
-
-  
-
