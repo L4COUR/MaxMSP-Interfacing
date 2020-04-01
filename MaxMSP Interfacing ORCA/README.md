@@ -74,6 +74,21 @@ By default ORCA sets the Control number of MIDIcc to 64, in order to set this to
 
 ![](./media/MaxMSP-Aufbau-ORCA-MIDIcc.gif)
 
+### MIDI to Ipad via Bluetooth
+
+You can also connect ORCA from your macbook to an iPad connected via bluetooth. first you need to go to Audio MIDI setup, and then open the tap called "window" and select "show MIDI studio". 
+
+![](./media/show-midi-studio.png)
+
+inside the MIDI studio, click the "bluetooth" icon
+
+![](./media/click-bluetooth-icon.png)
+
+inside the bluetooth configuration window, click advertise in order to connect a MIDI bluetooth Device.
+
+on your ipad connect to the advertised MIDI bluetooth device.
+
+finally on ORCA select the bluetooth midi device as your output, and now ORCA is sending MIDI data to the ipad app.
 
 ### OSC
 
