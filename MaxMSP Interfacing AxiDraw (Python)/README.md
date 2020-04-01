@@ -163,6 +163,8 @@ ordO
 
 ![](./media/Max-node-python.png)
 
+![](https://media2.giphy.com/media/ZfOEduyZdXEPK/giphy.gif)
+
 ### Sources
 
 - https://wiki.evilmadscientist.com/AxiDraw_User_Guide
