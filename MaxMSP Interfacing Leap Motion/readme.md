@@ -11,7 +11,7 @@ create a Max-patch with the node.script object and name the .js file that you wa
 
 Now in order to get all of that cool data from the Leap Motion write this code in the .js file
 
-´´´
+```javascript
 const maxApi = require('max-api');
 
 var Cylon = require('cylon');
@@ -31,9 +31,11 @@ Cylon.robot({
     });
   }
 }).start();
+```
 
-´´´
 run the code by enabling the the node.script object in max/msp and connect a message-box through the "cold" input, so that you can see all of the data.
+
+![](./media/maxpatch-node-for-max.png)
 
 <details>
   <summary>Max/MSP Patch</summary>
