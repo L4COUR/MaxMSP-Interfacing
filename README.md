@@ -20,6 +20,7 @@ Each of the ways of connecting Max/MSP to a given program, will use my Aufbau in
 - [Max/MSP Interfacing Shiftr.io (MQTT)](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20Shiftr.io%20-%20MQTT)
 - [Max/MSP Interfacing AxiDraw (Python)](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20AxiDraw%20(Python))
 - [Max/MSP Interfacing Arduino](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20Arduino)
+- Max/MSP Interfacing Leap Motion
 - Max/MSP Interfacing Processing
 - Max/MSP Interfacing SuperCollider
 - Max/MSP Interfacing ToneJS
