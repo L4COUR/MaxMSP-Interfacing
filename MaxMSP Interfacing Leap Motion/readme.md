@@ -66,3 +66,4 @@ U.I
 - https://www.npmjs.com/package/cylon-leapmotion
 - https://github.com/fiebrink1/wekinator_examples/tree/master/inputs/LeapMotion/LeapMotionViaProcessing/LeapMotion_Fingertips_15Inputs
 - http://jklabs.net/maxlink/index.html%3Fpage=about.html
+- https://github.com/L4COUR/MaxMSP-LeapMotion
