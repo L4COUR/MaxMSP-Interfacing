@@ -1,6 +1,6 @@
 # Max/MSP interfacing with Leap Motion (Node for Max)
 
-## minimum requirements to connect Leap Motion with Max/MSP
+## Hello World
 in order to connect leap motion controller with Max/MSP we are going to use Node for Max with the cylon-leapmotion npm package
 
 First you will have to make sure that node.js is installed on your system. Next up you have to initialize an npm project. This is done by "cd" to the correct directory using the terminal/CMD then you want to type in "npm init" and go through the setup.
