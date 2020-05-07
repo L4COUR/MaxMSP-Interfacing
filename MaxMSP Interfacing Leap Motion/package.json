@@ -1,0 +1,14 @@
+{
+  "name": "leap-motion-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "leapmotion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cylon-leapmotion": "^0.21.0"
+  }
+}
