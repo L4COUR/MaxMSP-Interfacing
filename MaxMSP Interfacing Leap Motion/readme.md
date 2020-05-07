@@ -59,9 +59,10 @@ Z4SkG+V3KBHxegDQnenDEZXr99sbsYLXHGtoo6UfZYVBbTHCGA4DVy86+BwC
 U.I
 -----------end_max5_patcher-----------
 </code></pre>
-
 </details>
 
 
 ## source
 - https://www.npmjs.com/package/cylon-leapmotion
+- https://github.com/fiebrink1/wekinator_examples/tree/master/inputs/LeapMotion/LeapMotionViaProcessing/LeapMotion_Fingertips_15Inputs
+- http://jklabs.net/maxlink/index.html%3Fpage=about.html
