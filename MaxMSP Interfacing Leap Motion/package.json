@@ -1,7 +1,7 @@
 {
-  "name": "leap-motion-project",
+  "name": "maxmspleapmotion",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Hello World in order to connect leap motion controller with Max/MSP we are going to use Node for Max with the cylon-leapmotion npm package",
   "main": "leapmotion.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cylon-leapmotion": "^0.21.0"
+    "express": "^4.17.1"
   }
 }
