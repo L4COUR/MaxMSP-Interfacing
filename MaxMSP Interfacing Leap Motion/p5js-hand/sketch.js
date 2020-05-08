@@ -25,15 +25,19 @@ function drawHand(frame) {   //for each frame, this function is called
 
 function drawBrush(hand){
 
-    console.log(hand);
+	console.log(hand);
 
-		var data = hand.type
+	 var data = {
+		 type: hand.type,
+		 translation: hand._translation,
+		 pinch: hand.pinchStrength,
+		 grab: hand.grabStrength
+	 }
 
 
 
 
-
-		socket.emit('leapMotion',data);
+	 socket.emit('leapMotion',data);
 
 
 
