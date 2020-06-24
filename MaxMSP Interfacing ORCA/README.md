@@ -341,7 +341,7 @@ Here ORCA is utilized as a way of generating random MIDI signal that control var
 
 [![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/862947495.jpg)](https://player.vimeo.com/video/396270237)
 
-### ORCA Mod Tracker + Max for Live Controller
+### ORCA Mod Tracker + Max for Live
 
 Heavily inspired by the [Polyend Tracker](https://polyend.com/tracker/) i explored the concept of [music trackers](https://en.wikipedia.org/wiki/Music_tracker) by making a tracker in ORCA and connecting it via Max for Live. Read more about it [here]()
 
