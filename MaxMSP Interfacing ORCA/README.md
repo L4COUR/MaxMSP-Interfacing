@@ -343,7 +343,7 @@ Here ORCA is utilized as a way of generating random MIDI signal that control var
 
 ### ORCA Mod Tracker + Max for Live
 
-Heavily inspired by the [Polyend Tracker](https://polyend.com/tracker/) i explored the concept of [music trackers](https://en.wikipedia.org/wiki/Music_tracker) by making a tracker in ORCA and connecting it via Max for Live. Read more about it [here]()
+Heavily inspired by the [Polyend Tracker](https://polyend.com/tracker/) i explored the concept of [music trackers](https://en.wikipedia.org/wiki/Music_tracker) by making a tracker in ORCA and connecting it via Max for Live. Read more about it [here]([https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max%20Projects/07_Max4Live%20-%20ORCA%20Mod%20Tracker](https://github.com/L4COUR/L4COUR_Max-Patchers/tree/master/Max Projects/07_Max4Live - ORCA Mod Tracker))
 
 <img src="./media/ORCAMODTracker.png" alt="ORCAMODTracker" style="zoom:50%;" />
 
