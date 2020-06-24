@@ -333,10 +333,49 @@ LsHWOYTINSMI+0aWuZvzVNPgLRnbMAyM3HttD5vIPqMTS0gkSg62EZsLaJhr
 Max/MSP and ORCA share a lot of communication protocols such as MIDI, UDP and OSC, which means that there is a lot of different ways of establishing a connection between the two programs. All of the protocols can be used for sending out values to Max/MSP, however it seems that only MIDI and UDP receive values from MaxMSP. This means that the only bidrectional communication possible is through MIDI or UDP, this is worth considering when composing using the two programs together.
 
 ## Compose
-In the previous parts we have established that you can connect ORCA and Max/MSP in a lot of different ways. In this final part is about using the above methods for auditive composition. by providing a quick start up template.
+In the previous parts we have established that you can connect ORCA, Max/MSP and Ableton through a lot of different ways. This final part aims to showcase a few of my projects that make use of these connections.
+
+### Generative composition with Max/MSP & ORCA
+
+Here ORCA is utilized as a way of generating random MIDI signal that control various paramters in Max/MSP. Check out how it sounds [here](https://vimeo.com/396270237)
 
 [![IMAGE ALT TEXT HERE](https://i.vimeocdn.com/video/862947495.jpg)](https://player.vimeo.com/video/396270237)
 
+### ORCA Mod Tracker + Max for Live Controller
+
+Heavily inspired by the [Polyend Tracker](https://polyend.com/tracker/) i explored the concept of [music trackers](https://en.wikipedia.org/wiki/Music_tracker) by making a tracker in ORCA and connecting it via Max for Live. Read more about it [here]()
+
+<img src="/Users/Pacour/Developer/Aufbau/MaxMSP Interfacing ORCA/media/ORCAMODTracker.png" alt="ORCAMODTracker" style="zoom:50%;" />
+
+<details>
+  <summary>ORCA Mod Tracker</summary>
+..........................................................................................
+.#TONE##..CH01.........#......................#TONE##..CH01.........#.....................
+H..0A5Q..........H09Oo.......................H..0A5Q..........H09Oo.......................
+*:01C............*=a1........................*:...............*=bc........................
+...#EFFECTS#....................................#EFFECTS#.................................
+..H573QH673Q...................................H573QH673Q.................................
+..*!...*!......................................*!...*!....................................
+...1...............112T01.......................................412T01....................
+..H843QH943Q........0D1........................H843QH943Q......d10D1......................
+..*!...*!04Z.........*.........................*!...*!............*.......................
+....................1ig........................................4.1ig......................
+....................32hQ00#01C..01Z02A03Z...#....................3dhQ00#.................#
+.#DATA#.....01A...03A...01#01C...........04Z#.#DATA#.................01#.................#
+........................02#.....01A...03A...#........................02#.................#
+........................03#01C..............#........................03#.................#
+........................04#01C.....02A......#........................04#.................#
+........................05#.................#........................05#.................#
+........................06#01C........03A04G#........................06#.................#
+........................07#........02G03Z...#........................07#.................#
+........................08#01C..01B......04a#........................08#.................#
+........................09#.....01Z02Z...04Z#........................09#.................#
+........................10#01C...........040#........................10#.................#
+........................11#01C..............#........................11#.................#
+........................12#01C.....02G03Z...#........................12#.................#
+........................13#..............04R#........................13#.................#
+........................14#01C..01F02A03A04Z#........................14#.................#
+........................15#01C..01F02Z......#........................15#.................#
 
 ### Sources
 

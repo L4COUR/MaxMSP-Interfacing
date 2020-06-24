@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 631.0, 288.0, 775.0, 788.0 ],
+		"rect" : [ 615.0, 80.0, 775.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-96",
@@ -586,7 +587,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -619,6 +620,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -627,7 +629,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.0, 75.0, 50.0, 22.0 ],
-									"text" : "U"
+									"text" : ""
 								}
 
 							}
@@ -639,7 +641,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 233.0, 53.0, 50.0, 36.0 ],
-									"text" : "U"
+									"text" : ""
 								}
 
 							}
@@ -1282,12 +1284,12 @@
 					"patching_rect" : [ 83.0, 562.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 60.0,
 							"parameter_longname" : "live.dial[5]",
 							"parameter_mmax" : 300.0,
-							"parameter_shortname" : "APM"
+							"parameter_mmin" : 60.0,
+							"parameter_shortname" : "APM",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -1307,12 +1309,12 @@
 					"patching_rect" : [ 176.0, 562.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 60.0,
 							"parameter_longname" : "live.dial[4]",
 							"parameter_mmax" : 300.0,
-							"parameter_shortname" : "BPM"
+							"parameter_mmin" : 60.0,
+							"parameter_shortname" : "BPM",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -1333,7 +1335,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1366,6 +1368,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-314",
@@ -1463,7 +1466,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1496,6 +1499,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-307",
@@ -1669,7 +1673,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1702,6 +1706,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-26",
@@ -4603,7 +4608,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 548.5, 62.0, 50.0, 22.0 ],
-					"text" : "U"
+					"text" : ""
 				}
 
 			}
@@ -4631,10 +4636,10 @@
 					"patching_rect" : [ 490.625, 62.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.dial[2]",
-							"parameter_shortname" : "Ysel"
+							"parameter_shortname" : "Ysel",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -4654,10 +4659,10 @@
 					"patching_rect" : [ 237.375, 67.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.dial[3]",
-							"parameter_shortname" : "Xsel"
+							"parameter_shortname" : "Xsel",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -4677,10 +4682,10 @@
 					"patching_rect" : [ 406.0, 62.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.dial[1]",
-							"parameter_shortname" : "Ypos"
+							"parameter_shortname" : "Ypos",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -4700,10 +4705,10 @@
 					"patching_rect" : [ 321.791666666666686, 67.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
 							"parameter_longname" : "live.dial",
-							"parameter_shortname" : "Xpos"
+							"parameter_shortname" : "Xpos",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -5446,16 +5451,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-403" : [ "live.dial[4]", "BPM", 0 ],
 			"obj-11" : [ "live.dial[2]", "Ysel", 0 ],
-			"obj-3" : [ "live.dial", "Xpos", 0 ],
 			"obj-12" : [ "live.dial[3]", "Xsel", 0 ],
-			"obj-7" : [ "live.dial[1]", "Ypos", 0 ],
+			"obj-3" : [ "live.dial", "Xpos", 0 ],
+			"obj-403" : [ "live.dial[4]", "BPM", 0 ],
 			"obj-404" : [ "live.dial[5]", "APM", 0 ],
+			"obj-7" : [ "live.dial[1]", "Ypos", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [  ],
@@ -5464,8 +5470,8 @@
 				"name" : "j2-1",
 				"default" : 				{
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"textcolor_inverse" : [ 0.432961, 0.815368, 0.976471, 1.0 ],
+					"bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"patchlinecolor" : [ 0.960784, 0.827451, 0.156863, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
