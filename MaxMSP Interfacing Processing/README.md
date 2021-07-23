@@ -43,6 +43,8 @@ gR9INEANe63ct5vlgN42nSvd7ttif1LRFkvsEOnz9zGSvTgLjhyRpFNJl3yB
 Pbsa0Yc6sdM1WzgMg8JsUUCZYu.IG6cmSS7Jhz8ryzwCFAuIEeN9CbTi.PN
 -----------end_max5_patcher-----------
 </code></pre>
+</details>
+
 
 ## Pure Data
 
