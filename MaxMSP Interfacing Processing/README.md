@@ -50,6 +50,10 @@ Pure Data dependencies; /net & /osc
 
 ![OSC_pureData](./media/OSC_pureData.png)
 
+A more recent way of working with OSC in pure data that will work across windows, mac and linux based microcontrollers like Raspberry Pi is to use vanilla objects with no externals. if anything this is one of the issues with free software like pure data where there are a lot of outdated solutions that can be hard to navigate through.
+
+![OSC_puredata_vanilla](./media/OSC_puredata_vanilla.png)
+
 ## Compose
 
 Used in the project [PlantVoiceBox](https://github.com/L4COUR/PlantVoiceBox) where the initially used serial via arduino could not be used, due to a processing sketch using the serial data. apparently serial data cannot be used by two instances at the same time. Therefor where the serial data substituted with an OSC connection. however the sonic expression should still be the same with some adjustment of datasmoothing interpolation. 
