@@ -58,5 +58,7 @@ A more recent way of working with OSC in pure data that will work across windows
 
 ## Compose
 
+![GrowingCoDesign](./media/GrowingCoDesign.jpeg)
+
 Used in the project [PlantVoiceBox](https://github.com/L4COUR/PlantVoiceBox) where the initially used serial via arduino could not be used, due to a processing sketch using the serial data. apparently serial data cannot be used by two instances at the same time. Therefor where the serial data substituted with an OSC connection. however the sonic expression should still be the same with some adjustment of datasmoothing interpolation. 
 
