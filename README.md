@@ -6,8 +6,9 @@ The word "Interfacing" is here primarily understood as a process of establishing
 - [Max/MSP Interfacing Shiftr.io (MQTT)](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20Shiftr.io%20-%20MQTT)
 - [Max/MSP Interfacing AxiDraw (Python)](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20AxiDraw%20(Python))
 - [Max/MSP Interfacing Arduino](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20Arduino)
+- [Max/MSP Interfacing Processing](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20Processing)
+- Max/MSP Interfacing ChucK
 - Max/MSP Interfacing Leap Motion
-- Max/MSP Interfacing Processing
 - Max/MSP Interfacing SuperCollider
 - Max/MSP Interfacing ToneJS
 - Max/MSP Interfacing Acoustic Instruments
