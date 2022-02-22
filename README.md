@@ -7,6 +7,7 @@ The word "Interfacing" is here primarily understood as a process of establishing
 - [Max/MSP Interfacing AxiDraw (Python)](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20AxiDraw%20(Python))
 - [Max/MSP Interfacing Arduino](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20Arduino)
 - [Max/MSP Interfacing Processing](https://github.com/L4COUR/MaxMSP-Interfacing/tree/master/MaxMSP%20Interfacing%20Processing)
+- [Max/MSP Interfacing BELA](https://github.com/L4COUR/BELA_Aarhus_Audiodesign#bela-and-maxmsp)
 - Max/MSP Interfacing ChucK
 - Max/MSP Interfacing Leap Motion
 - Max/MSP Interfacing SuperCollider
